@@ -1,0 +1,43 @@
+h3 {
+  margin: 10px;
+}
+.EmailListHeader{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  width: 340px;
+  border-bottom: 1px solid #E9E9E9;
+  height: 43px;
+}
+
+.notify-container {
+  position: relative;
+	display: inline-block;
+}
+
+  .notify-bubble {
+    position: absolute;
+    top: 6px;
+    left: 52px;
+    padding: 3px 8px 3px 8px;
+    background-color: #FC3401;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px gray;
+
+  }
+
+select {
+  height: 20px;
+  margin: 10px;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #3B3D3F;
+}
+
+.Emaillist {
+  width: 340px;
+  box-shadow:  0 0 10px rgba(0,0,0,.8);
+  min-height: 100vh;
+  }

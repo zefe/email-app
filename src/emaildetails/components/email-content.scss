@@ -1,0 +1,139 @@
+.email {
+  background: transparent;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.email-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 42px 50px 30px;
+  grid-template-areas: "button-left button-rigth"
+                       "title title"
+                       "tags tags"
+                       "email-body email-body";
+}
+
+button{
+  font-size: 12px;
+}
+.button-left {
+  grid-area: button-left;
+  height: 43px;   
+  border-bottom: 1px solid #E9E9E9;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.button-left .delete {
+  margin: 0 5px;
+  background: red;
+  border: none;
+  padding: 6px 15px;
+  color: white;
+  border-radius: 3px;
+}
+.button-left .spam {
+  margin: 0 5px;  
+  background: transparent;
+  padding: 6px 15px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.button-rigth {
+  grid-area: button-rigth;
+  height: 43px;     
+  border-bottom: 1px solid #E9E9E9;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  align-items: center;  
+}
+.button-rigth button{
+  background: #03B9ED;
+  padding: 6px 15px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.title {
+  font-size: 12px;
+  grid-area: title;  
+  margin: 0;
+  height: 52px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.tags {
+  grid-area: tags;
+  display: flex;
+  align-items: center;
+}
+
+.tags {
+  margin: 0 20px;
+  border: none;
+  box-shadow:  0 0 1px rgba(0,0,0,.1);
+  background: white;
+  span {
+    margin: 0 10px;
+  }
+  .tag-border {
+    border: 1px solid gray;
+    padding: 3px 6px;
+    border-radius: 3px;
+  }
+}
+
+.email-body {
+  grid-area: email-body;
+}
+.email-content {
+  grid-area: tags;  
+  display: flex;
+  margin: 0 20px;
+  height: 50%;
+  margin-top: 20px;
+  background: white;
+  box-shadow:  0 0 1px rgba(0,0,0,.1);
+  p {
+    padding: 20px;
+    text-align: left;
+  }
+ 
+}
+.email-footer {
+  margin: 0 20px;
+  display: flex;
+  background: transparent;
+  box-shadow:  0 0 1px rgba(0,0,0,.1);
+}
+.icon {
+  width: 50%;
+  span {
+    margin-left:  5px;
+  }
+  a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #03B9ED;
+  }
+}
+.button-replay {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  height:45px ;
+
+  button {
+    background: #03B9ED;
+    border: none;
+    color: white;
+  }
+}
+

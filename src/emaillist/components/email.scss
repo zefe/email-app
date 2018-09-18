@@ -1,0 +1,29 @@
+$borderWidth: 1px;
+
+p, h3{
+  margin: 10px;
+}
+.EmailDescContent {
+  cursor: pointer;
+  // border-left: $borderWidth solid skyblue;
+  width: 100%;
+  border-bottom: 1px solid #E9E9E9;
+}
+.EmailDesc{
+  display: flex;
+}
+.is-selected{
+  background: #03B9ED;
+  color: white;
+}
+.Left {
+  width: 78%;
+}
+.Rigth {
+  width: 22%;
+  display: box;
+  margin-right: 10px;
+}
+.Rigth p{
+  text-align: right;
+}
