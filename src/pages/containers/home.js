@@ -32,6 +32,7 @@ class Home extends Component {
           emaillist={this.props.emails}
           openDetails={this.handleOpenEmailContent}
           search={this.props.search}
+          isLoadingSearch={this.props.isLoadingSearch}
           />
         </div>
         <div className="Details">
@@ -69,6 +70,7 @@ function mapStateToProps(state, props) {
     emails: emails,
     search: searchResults,
     details: state.get('details'),
+    isLoadingSearch: state.get('isLoadingSearch').get('active')
   }
 }
 

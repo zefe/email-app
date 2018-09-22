@@ -21,6 +21,10 @@ function Emaillist(props) {
           </select>
         </div>
         <Search />
+        {
+          props.isLoadingSearch &&
+          <p>Buscando correos...</p>
+        }
         { 
           props.search.map((item) => {
             return <Email

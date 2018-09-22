@@ -1,3 +1,7 @@
 export const OPEN_DETAILS = 'OPEN_DETAILS';
 
 export const SEARCH_EMAIL = 'SEARCH_EMAIL';
+
+export const SEARCH_ASYNC_EMAIL = 'SEARCH_ASYNC_EMAIL';
+
+export const IS_LOADING_SEARCH = 'IS_LOADING_SEARCH'
