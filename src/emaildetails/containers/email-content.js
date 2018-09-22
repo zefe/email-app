@@ -34,7 +34,7 @@ class EmailContent extends Component {
                 <p><Attached
                       size={18}
                       />                 
-                <a href="#" target="_blank">{this.props.attach.get('name')}</a>
+                <a href={this.props.attach.get('file')} target="_blank">{this.props.attach.get('name')}</a>
                 </p>
               {/* {
                 props.data.attachements.length > 0 ?

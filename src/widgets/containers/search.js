@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import Search from '../components/search';
 import { connect } from 'react-redux';
+import { searchEmail } from '../../actions/index';
 
 class SearchContainer extends Component {
   
   handleSubmit = event => {
     event.preventDefault();
     console.log(this.input.value, 'submit');
-    this.props.dispatch({
-      type: 'SEARCH_EMAIL',
-      payload: {
-        query: this.input.value,
-      }
-    })
+    this.props.dispatch(searchEmail(this.input.value));
   }
 
   setInputRef = element => {
