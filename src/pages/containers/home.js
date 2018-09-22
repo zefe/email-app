@@ -24,12 +24,6 @@ class Home extends Component {
     this.props.actions.openDetails(emailId);
   }
 
-  closeDetails = (event) => {
-    this.setState({
-      visibility: false,
-    })
-  }
-
   render() {
     return(
       <HomeLayout>
