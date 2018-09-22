@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Search from '../components/search';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/index';
-import { bindActionCreators } from '../../../../../Users/usuario/AppData/Local/Microsoft/TypeScript/3.0/node_modules/redux';
+import { bindActionCreators } from 'redux';
 
 class SearchContainer extends Component {
   
