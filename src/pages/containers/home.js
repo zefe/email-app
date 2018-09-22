@@ -6,7 +6,8 @@ import EmailContent from '../../emaildetails/containers/email-content';
 import './home.scss';
 import { connect } from 'react-redux';
 import { List as list } from 'immutable';
-import { openDetails } from '../../actions/index';
+import  * as actions from '../../actions/index';
+import { bindActionCreators } from 'redux';
 
 class Home extends Component {
   // state = {
@@ -20,7 +21,7 @@ class Home extends Component {
   //   })
   // }
   handleOpenEmailContent = (emailId) => {
-    this.props.dispatch(openDetails(emailId));
+    this.props.actions.openDetails(emailId);
   }
 
   closeDetails = (event) => {
@@ -74,8 +75,13 @@ function mapStateToProps(state, props) {
     emails: emails,
     search: searchResults,
     details: state.get('details'),
-    // search: state.get('data').get('search')
   }
 }
 
-export default connect(mapStateToProps) (Home)
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(actions, dispatch)
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps) (Home)
