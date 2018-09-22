@@ -1,18 +1,21 @@
-{"inbox": [
+[
   {
-  "id": "1",
-  "from":"Crosswell bowen",
-  "to":"cziem0@surveymonkey.com",
-  "subject":"Office Assistant IV",
-  "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non ultricies dolor, et consequat erat. Etiam tempor, nibh at vehicula mattis, ligula nunc luctus ligula, vel condimentum sem erat nec dolor. Aliquam erat volutpat. Vivamus nisi sapien, venenatis vitae blandit et, varius vitae augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a erat at diam auctor viverra. Nullam facilisis, orci vitae rhoncus porttitor, est neque fringilla augue, quis rutrum tellus nulla at eros. Nulla ut massa posuere, posuere leo ut, consequat felis. Morbi id ornare massa, et bibendum purus. Aenean vehicula eleifend sem, quis aliquet ante luctus quis. Nullam tincidunt, dui vel aliquam lobortis, eros enim pharetra sem, eu pharetra massa augue quis purus. Vestibulum accumsan nulla non ultrices convallis. In pulvinar, ipsum eget tristique laoreet, neque turpis cursus odio, et tincidunt tortor felis a magna. Fusce quis urna sapien. Praesent efficitur dolor ante, non commodo libero aliquet ac.",
-  "date":"3/31/2017",
-  "isReaded":"false",
-  "avatar":"https://robohash.org/dignissimosetsuscipit.jpg?size=50x50&set=set1",
-  "tag":"Indigo",
-  "attachements":[{
-    "file":"http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
-    "name":"ut_nulla_sed.jpeg"
-    }]
+    "id":"1",
+    "from":"mhallatt0@walmart.com",
+    "to":"cziem0@surveymonkey.com",
+    "subject":"Office Assistant IV",
+    "body":"condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis",
+    "date":"3/31/2017",
+    "isReaded":false,
+    "avatar":"https://robohash.org/dignissimosetsuscipit.jpg?size=50x50&set=set1",
+    "tag":"Indigo",
+    "attachements":[
+      {
+        "id":"1",        
+        "file":"http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
+        "name":"ut_nulla_sed.jpeg"
+      }
+    ]
   },
   {
     "id":"2",
@@ -21,65 +24,15 @@
     "subject":"Technical Writer",
     "body":"sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
     "date":"11/17/2016",
-    "isReaded":"false",
+    "isReaded":false,
     "avatar":"https://robohash.org/aliquamautdolore.jpg?size=50x50&set=set1",
     "tag":"Teal",
-    "attachements":[{
-      "file":"http://dummyimage.com/250x250.jpg/dddddd/000000",
-      "name":"sodales_scelerisque_mauris.jpeg"}]
-    },
-    {
-      "id":"3",
-      "from":"nmulbery1@seattletimes.com",
-      "to":"idimont1@usa.gov",
-      "subject":"Technical Writer",
-      "body":"sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-      "date":"11/17/2016",
-      "isReaded":"false",
-      "avatar":"https://robohash.org/aliquamautdolore.jpg?size=50x50&set=set1",
-      "tag":"Teal",
-      "attachements":[]
-      },
+    "attachements":[
       {
-        "id":"4",
-        "from":"nmulbery1@seattletimes.com",
-        "to":"idimont1@usa.gov",
-        "subject":"Technical Writer",
-        "body":"sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-        "date":"11/17/2016",
-        "isReaded":"false",
-        "avatar":"https://robohash.org/aliquamautdolore.jpg?size=50x50&set=set1",
-        "tag":"Teal",
-        "attachements":[{
-          "file":"http://dummyimage.com/250x250.jpg/dddddd/000000",
-          "name":"sodales_scelerisque_mauris.jpeg"}]
-      },
-      {
-        "id":"5",
-        "from":"test@test.com",
-        "to":"idimont1@usa.gov",
-        "subject":"Data fac",
-        "body":"sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-        "date":"11/17/2016",
-        "isReaded":"false",
-        "avatar":"https://robohash.org/aliquamautdolore.jpg?size=50x50&set=set1",
-        "tag":"Teal",
-        "attachements":[{
-          "file":"http://dummyimage.com/250x250.jpg/dddddd/000000",
-          "name":"sodales_scelerisque_mauris.jpeg"}]
-      },
-      {
-        "id":"6",
-        "from":"test@test.com",
-        "to":"idimont1@usa.gov",
-        "subject":"Data fac",
-        "body":"sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-        "date":"11/17/2016",
-        "isReaded":"false",
-        "avatar":"https://robohash.org/aliquamautdolore.jpg?size=50x50&set=set1",
-        "tag":"Teal",
-        "attachements":[]
+        "id":"2",
+        "file":"http://dummyimage.com/250x250.jpg/dddddd/000000",
+        "name":"sodales_scelerisque_mauris.jpeg"
       }
-
-  ]
-}
+    ]
+  }
+]

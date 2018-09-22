@@ -3,13 +3,16 @@ import { fromJS} from 'immutable';
 
 const initialState = fromJS({ 
   visibility: false,
-  inboxId: null, 
+  emailId: null, 
 })
 
 function details(state = initialState, action) {
   switch(action.type) {
     case 'OPEN_DETAILS':
-      return state
+      return state.merge({
+        visibility: true,
+        emailId: action.payload.emailId
+      })
     case 'CLOSE_DETAILS':
       return state
     default:

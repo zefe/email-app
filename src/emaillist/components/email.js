@@ -4,16 +4,13 @@ import Attached from '../../icons/components/attached';
 import './email.scss';
 
 class Email extends PureComponent {
-  // constructor(props) {
-  //   super(props)
-  //   this.handleClick = this.handleClick.bind(this);
-  // }
+
   state = {
     isSelected: false,
   }
 
   handleClick = (event) => {
-    this.props.handleClick(this.props);
+    this.props.openDetails(this.props.id);
   }
 
   handleToggle(e){

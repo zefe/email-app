@@ -3,7 +3,7 @@ import { fromJS} from 'immutable';
 
 const initialState = fromJS({  
     entities: schema.entities,
-    inbox: schema.result.inbox,
+    emails: schema.result.emails,
     search: '',
 })
 

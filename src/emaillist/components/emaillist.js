@@ -33,11 +33,11 @@ function Emaillist(props) {
               isReaded={item.get('isReaded')}
               avatar={item.get('avatar')}
               tag={item.get('tag')}
-              attachements={item.get('attachements')}
-              file={item.get('attachements[0].file')}
-              name={item.get('attachements[0].name')} 
+              attachements={item.get('attachement')}
+              file={item.get('file')}
+              name={item.get('name')} 
 
-              handleClick={props.handleOpenEmailContent}
+              // openDetails={props.openDetails}
             />
           })
         }
@@ -46,20 +46,21 @@ function Emaillist(props) {
             // return <Email from={item.from} key={item.id} />
             return (
               <Email
-                // {...item}
-                key={item.get('id')}
-                from={item.get('from')}
-                subject={item.get('subject')}
-                body={item.get('body')}
-                date={item.get('date')}
-                isReaded={item.get('isReaded')}
-                avatar={item.get('avatar')}
-                tag={item.get('tag')}
-                attachements={item.get('attachements')}
-                file={item.get('attachements[0].file')}
-                name={item.get('attachements[0].name')}
+                 {...item.toJS()} key={item.get('id')}
+                // key={item.get('id')}
+                // id={item.get('id')}
+                // from={item.get('from')}
+                // subject={item.get('subject')}
+                // body={item.get('body')}
+                // date={item.get('date')}
+                // isReaded={item.get('isReaded')}
+                // avatar={item.get('avatar')}
+                // tag={item.get('tag')}
+                // attachements={item.get('attachements')}
+                // file={item.get('file')}
+                // name={item.get('name')}
 
-                handleClick={props.handleOpenEmailContent} 
+                openDetails={props.openDetails} 
                 />
             )
           })
